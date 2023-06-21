@@ -8,10 +8,13 @@
 void print_alphabet_x10(void)
 {
 	char letter = 'a';
+	int i;
 
-	for (int i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (int j = 0; j < 26; j++)
+		int j;
+
+		for (j = 0; j < 26; j++)
 		{
 			_putchar(letter);
 			letter++;
