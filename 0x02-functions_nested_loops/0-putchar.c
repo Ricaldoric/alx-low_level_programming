@@ -1,10 +1,13 @@
-#include <main.h>
+#include "main.h"
 
 /**
+ * main - program entry point
+ *
+ * Description: prints _putchar without using printf
+ *
+ * Return: Always (0), indicating success
  *
  */
- 
-  
 int main(void)
 {
 	_putchar('_');
@@ -16,6 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
+	return (0);
 }
-
-
