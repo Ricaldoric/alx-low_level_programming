@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - program entry
+ * main - program entry test function for positive or negative
  *
  * Return: 0, indicating success
  */
-
 int main(void)
 {
 	int i;
