@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * mul - multiplies two integers
- * @a and b: first and second integer
+ * @a: first integer
+ * @b: second integer to multiply with the first one
  * Return: product of a and b
  * Description: multiplies two integers
  */
