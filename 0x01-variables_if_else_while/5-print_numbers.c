@@ -10,12 +10,16 @@
  */
 int main(void) /*start of the prohgram*/
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	if (i < 10; i++)
+	{
 		printf("%d", i);
+	}
 	else
+	{
 		printf(" ")
+	}
 
 	return (0);
 }
