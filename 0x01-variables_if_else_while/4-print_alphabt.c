@@ -13,9 +13,9 @@ int main(void) /*start of the prohgram*/
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if c == 'q'
+		if (c == 'q')
 			continue;
-		if c == 'e'
+		if (c == 'e')
 			continue;
 		else
 		{
