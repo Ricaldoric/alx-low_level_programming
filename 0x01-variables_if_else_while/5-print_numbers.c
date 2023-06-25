@@ -16,7 +16,7 @@ int main(void) /*start of the prohgram*/
 	{
 		printf("%d", i);
 	}
-	printf(" \n");
+	printf("\n");
 
 
 	return (0);
