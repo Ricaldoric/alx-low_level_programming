@@ -14,7 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 	unsigned int index; /* Iterate through the memory area */
 		for (index = 0; index < n; index++)
 		{
-        /* Set the value at the current position to b */
+			/* Set the value at the current position to b */
 			s[index] = b;
 		}
 
