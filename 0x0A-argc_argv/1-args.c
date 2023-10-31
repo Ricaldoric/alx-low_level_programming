@@ -8,7 +8,8 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	/* Print the number of arguments passed 
+	/**
+	 * Print the number of arguments passed
 	 * to the program minus one (to exclude the program name)
 	 */
 	printf("%d\n", argc - 1);
