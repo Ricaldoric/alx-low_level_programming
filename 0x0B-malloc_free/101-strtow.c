@@ -30,7 +30,7 @@ int count_word(char *str)
 char **strtow(char *str)
 {
 	char **array, *word;
-	int i, j = 0, k = 0, len = 0, words, word_len;
+	int i, j = 0, k = 0, words, word_len;
 
 	if (str == NULL || *str == '\0')
 		return (NULL);
