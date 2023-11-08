@@ -8,7 +8,7 @@
  *
  * Description: This function takes a name and
  * a function pointer as parameters.
- * If both name and f are not NULL, it calls 
+ * If both name and f are not NULL, it calls
  * the function pointed by f to print the name.
  */
 void print_name(char *name, void (*f)(char *))
