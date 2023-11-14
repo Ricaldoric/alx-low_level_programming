@@ -1,8 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include "dog.h"
+#include "dog.h" /* Include the dog.h header file */
 
+/* Function prototypes */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 struct dog *new_dog(char *name, float age, char *owner);
