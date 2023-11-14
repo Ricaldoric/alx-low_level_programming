@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-/* Main function: Entry point of the program */
+/**
+ * main - Start of the program
+ * Description: Prints the name of the file it was compiled from
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	/**
